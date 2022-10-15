@@ -1,0 +1,92 @@
+Algoritmo "CÁLCULO DE MÉDIA "
+//  ALUNO: LEANDRO RODRIGUES DOS SANTOS
+//  MATRICULA: 01505152
+Var
+   segunda, terca, quarta, quinta, sexta, media: real
+   Motorista : caracter
+Inicio
+ Escreval ("                BOM DIA!  ")
+ Escreval     ("  Digite as informações a seguir: ")
+ Escreval
+ Escreva ("Qual o nome do motorista: ")
+      Leia (Motorista)
+ Escreval ("Qual o valor do abastecimento pago na segunda feira? ")
+ Escreva (" R$")
+      Leia(segunda)
+      Escreval ("Qual o valor do abastecimento pago na terça feira? ")
+ Escreva (" R$")
+      Leia(terca)
+ Escreval ("Qual o valor do abastecimento pago na quarta feira? ")
+ Escreva (" R$")
+      Leia(quarta)
+ Escreval ("Qual o valor do abastecimento pago na quinta feira? ")
+ Escreva (" R$")
+      Leia(quinta)
+ Escreval ("Qual o valor do abastecimento pago na sexta feira? ")
+ Escreva (" R$")
+      Leia(sexta)
+ Media <- (segunda+ terca+ quarta+ quinta+ sexta)/4
+       escreval ("A sua média de gasto foi de R$", media," Reais")
+ Se media <=100 entao
+ Escreva (Motorista,  " gastou abaixo da média de 100,00 Reais. Parabéns!!! ")
+ Senao
+ Escreva (Motorista,  " gastou acima da média de 100,00 Reais. Foi triste :( ")
+ Fimse
+Fimalgoritmo
+
+
+
+-----------------------------------------------------------/////----------------------------------------------------------////------------------------------------------------------------------//////----------------------------------------------------
+
+
+
+
+
+Algoritmo "Combustivel- Gasolina vs Etanol"
+// Disciplina   : [Linguagem e L?gica de Programa??o]
+// Professor
+// Descri??o   : Aqui voc? descreve o que o programa faz! (fun??o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/06/2022
+
+
+Var
+
+porcentagem, gasolina, etanol:real
+etanol_consumidor:real
+
+
+Inicio
+
+escreval("------ POSTO DE GASOLINA------")
+escreval("")
+escreval("")
+escreva(" Digite o valor da GASOLINA: R$")
+leia(gasolina)
+escreval("")
+escreval("")
+escreva(" Valor do ETANOL : R$")
+leia(etanol)
+escreval("")
+escreval("")
+
+porcentagem<-0.7
+
+etanol_consumidor<-gasolina * 0.7
+
+escreva (" Valor do Etanol para Consumidor__: R$",etanol_consumidor:2:3)
+escreval("")
+escreval("")
+escreval("---------------------------------")
+
+se etanol_consumidor >= etanol entao
+
+     escreva (" COMPENSA ABASTECER COM ETANOL")
+     senao
+     escreva (" NÃOCOMPENSA ABASTECER COM ETANOL")
+
+fimse
+escreval("")
+escreval("---------------------------------")
+
+Fimalgoritmo
